@@ -5,7 +5,7 @@ import { KnownTech as IKnownTech } from "@/app/types/projects";
 import { CMSIcon } from "@/app/components/cms-icon";
 
 type KnownTechProps = {
-  tech: IKnownTech;
+  tech: IKnownTech[];
 };
 
 export const KnownTech = ({ tech }: KnownTechProps) => {
